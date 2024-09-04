@@ -8,47 +8,6 @@ function HowWeMet() {
 
         <>
 
-            <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
-
-            <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-            </link>
-
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            </link>
-
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            </link>
-
-            <link href="https://fonts.googleapis.com/css2?family=Bilbo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-            </link>
-
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            </link>
-
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            </link>
-
-            <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Bilbo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"></link>
-
-
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            </link>
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            </link>
-            <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Bilbo&family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-            </link>
-
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            </link>
-
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            </link>
-
-            <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet"></link>
-
-
 
             <div className={styles.index_wrapper}>
 
@@ -145,7 +104,7 @@ function HowWeMet() {
                         </p>
 
                         <p>
-                            In 2012, fate first brought them together at the former National University of Rwanda. As students eager to excel, they occasionally crossed paths at the "Open Heart Team," a vibrant volunteer group devoted to serving those in need. Among their many shared experiences, their weekly visits to the university hospitals stand out—providing food and companionship to those less fortunate. Providence, a young woman active with boundless energy, shone brightly. Pacifique, equally captivating but refreshingly down-to-earth, was a joy to converse with. What began as a budding friendship blossomed into something deeper during Providence’s visits to Pacifique on campus and at the dorm, sparking heartfelt conversations and a meaningful connection.
+                            In 2012, fate first brought them together at the former National University of Rwanda. As students eager to excel, they occasionally crossed paths at the &quot;Open Heart Team&quot;, a vibrant volunteer group devoted to serving those in need. Among their many shared experiences, their weekly visits to the university hospitals stand out—providing food and companionship to those less fortunate. Providence, a young woman active with boundless energy, shone brightly. Pacifique, equally captivating but refreshingly down-to-earth, was a joy to converse with. What began as a budding friendship blossomed into something deeper during Providence&quot;s visits to Pacifique on campus and at the dorm, sparking heartfelt conversations and a meaningful connection.
                         </p>
 
                         <p>
@@ -158,7 +117,7 @@ function HowWeMet() {
                         </p>
 
                         <p>
-                            Since then, they've created countless cherished memories, from birthday celebrations to holiday festivities. Their story reached a beautiful climax on June 27, 2024, in Vancouver, where Providence said "yes" amid friends gathered by the Pacific Ocean. Their "forever" began that night, setting the stage for their upcoming wedding.
+                            Since then, they&quot;ve created countless cherished memories, from birthday celebrations to holiday festivities. Their story reached a beautiful climax on June 27, 2024, in Vancouver, where Providence said &quot;yes&quot; amid friends gathered by the Pacific Ocean. Their forever ever after began that night, setting the stage for their upcoming wedding.
                         </p>
 
                         <p>

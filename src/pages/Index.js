@@ -9,38 +9,6 @@ function HomePage() {
 
         <>
 
-            <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
-
-            <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-            </link>
-
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            </link>
-
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            </link>
-
-            <link href="https://fonts.googleapis.com/css2?family=Bilbo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-            </link>
-
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            </link>
-
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            </link>
-
-            <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Bilbo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"></link>
-
-
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            </link>
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            </link>
-            <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Bilbo&family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-            </link>
-
 
 
             <div className={styles.index_wrapper}>
@@ -107,7 +75,7 @@ function HomePage() {
 
                         <li className={styles.top_tag_section1}>
                             <p className={styles.top_story}>
-                                In 2012, fate first brought them together at the former National University of Rwanda. As students eager to excel, they occasionally crossed paths at the "Open Heart Team," a vibrant volunteer group devoted to serving those in need. Among their many shared experiences, their weekly visits to the university hospitals stand out—providing food and companionship to those less fortunate. Providence, a young woman active with...
+                                In 2012, fate first brought them together at the former National University of Rwanda. As students eager to excel, they occasionally crossed paths at the &quot;Open Heart Team,&quot; a vibrant volunteer group devoted to serving those in need. Among their many shared experiences, their weekly visits to the university hospitals stand out—providing food and companionship to those less fortunate. Providence, a young woman active with...
                             </p>
 
                             <p className={styles.top_click_link}>
@@ -218,7 +186,7 @@ function HomePage() {
                     <p className={styles.in_hamilton}>IN HAMILTON</p>
 
                     <p className={styles.if_you_are_looking}>
-                        If you are looking for places to visit while you are in Hamilton,  there's plenty to do. Click here to check out some favorite local attractions and make the most of your visit!
+                        If you are looking for places to visit while you are in Hamilton,  there&quot;s plenty to do. Click here to check out some favorite local attractions and make the most of your visit!
                     </p>
 
 

@@ -9,38 +9,6 @@ function ThingsToDo() {
 
         <>
 
-            <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
-
-            <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-            </link>
-
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            </link>
-
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            </link>
-
-            <link href="https://fonts.googleapis.com/css2?family=Bilbo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-            </link>
-
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            </link>
-
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            </link>
-
-            <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Bilbo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"></link>
-
-
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            </link>
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            </link>
-            <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Bilbo&family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-            </link>
-
 
 
             <div className={styles.index_wrapper}>
