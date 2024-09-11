@@ -171,7 +171,7 @@ function HomePage() {
                         </div>
                     </li>
 
-                    <p className={styles.take_a_look}>Take A Look Around</p>
+                    <p className={styles.bottom_tag}>Take A Look Around</p>
                     <Image
                         className={styles.maps_image}
                         alt="signature"
@@ -183,16 +183,16 @@ function HomePage() {
 
                     <p className={styles.in_hamilton}>IN HAMILTON</p>
 
-                    <p className={styles.if_you_are_looking}>
+                    <p className={styles.bottom_paragraphs}>
                         If you are looking for places to visit while you are in Hamilton,  there&quot;s plenty to do. Click here to check out some favorite local attractions and make the most of your visit!
                     </p>
 
 
 
-                    <p className={styles.dear_registry}>
+                    <p className={styles.bottom_tag}>
                         Dear Registry
                     </p>
-                    <p className={styles.send_this_beautiful}>
+                    <p className={styles.bottom_paragraphs}>
                         Send this beautiful couple a gift here. Browse and shop diverse selections of gifts you might think are perfect for this occasion!
                     </p>
 
