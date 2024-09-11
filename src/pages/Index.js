@@ -14,7 +14,7 @@ function HomePage() {
             <div className={styles.index_wrapper}>
 
 
-                <div>
+                <div className={styles.header_list}>
 
                     <li className={styles.title}>
                         <p>
@@ -59,9 +59,7 @@ function HomePage() {
                     </li>
                     
                     <div
-                        className={styles.providencepacifiquebanner}
-
-                    >
+                        className={styles.providencepacifiquebanner}>
                     </div>
 
                 </div>
