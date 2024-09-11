@@ -264,6 +264,7 @@
     margin-top: 150px;
     font-family: "Beth Ellen", cursive;
     font-size: 40px;
+    color: black;
 }
 
 
@@ -311,6 +312,7 @@
     display: flex;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
+    color: black;
 }
 
 .bottom_paragraphs {
@@ -320,6 +322,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 50px;
     margin-bottom: 50px;
+    color: black;
 }
 
 .bottom_tag_wrapper {
