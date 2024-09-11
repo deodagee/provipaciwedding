@@ -1,9 +1,22 @@
+"use client";
+
 import Image from "next/image";
 import styles from "../app/styles/indexmain.module.css";
 import Link from "next/link";
+import {useState} from "react";
 
 
 function HomePage() {
+
+
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const handleMenuToggle = () => {
+        setMenuOpen(!menuOpen);
+    };
+
+
+
     return (
 
 
@@ -22,42 +35,20 @@ function HomePage() {
                         </p>
                     </li>
 
-                    <li className={styles.navbar_list}>
+                    <nav>
+                        <div className={styles.hamburger} onClick={handleMenuToggle}>
+                            &#9776; {/* Hamburger icon */}
+                        </div>
+                        <ul className={`${styles.navbar_list} ${menuOpen ? styles.open : ''}`}>
+                            <li><Link href={'/HowWeMet'}>How We Met</Link></li>
+                            <li><Link href={'/Photos'}>Photos</Link></li>
+                            <li><Link href={'/Agenda'}>Agenda</Link></li>
+                            <li><Link href={'/ThingsToDo'}>Things To Do</Link></li>
+                            <li><Link href={'/Registry'}>Registry</Link></li>
+                        </ul>
+                    </nav>
 
 
-                        <p>
-
-                            <Link
-                                href={'/HowWeMet'}>
-                                How We Met
-                            </Link>
-                        </p>
-                        <p>
-                            <Link
-                                href={'/Photos'}>
-                                Photos
-                            </Link>
-                        </p>
-                        <p>
-                            <Link
-                                href={'/Agenda'}>
-                                Agenda
-                            </Link>
-                        </p>
-                        <p>
-                            <Link
-                                href={'/ThingsToDo'}>
-                                Things To Do
-                            </Link>
-                        </p>
-                        <p>
-                            <Link
-                                href={'/Registry'}>
-                                Registry
-                            </Link>
-                        </p>
-                    </li>
-                    
                     <div
                         className={styles.providencepacifiquebanner}>
                     </div>

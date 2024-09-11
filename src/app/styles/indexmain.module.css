@@ -128,8 +128,10 @@
     display: flex;
     flex-direction: row;
     width: 100vw;
-    gap: 1vw;
-
+    gap: 5vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .top_tag_section1 {
@@ -141,7 +143,7 @@
 }
 
 .top_story {
-    width: 80vw;
+    width: 50vw;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -160,13 +162,16 @@
 
 
 .top_tag_section2 {
-    margin-top: 50px;
     display: flex;
-    gap: 25px;
+    font-size: 15px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: "Caladea", serif;
+    font-weight: bold;
+    gap: 20px;
 }
+
 
 .rsvp_button {
     display: flex;
@@ -175,8 +180,6 @@
     width: 100px;
     padding: 5px;
     padding-top: 6px;
-    font-size: 10px;
-    font-weight: 600;
     color: white;
     border-radius: 0.35rem;
     transition: 0.3s;
@@ -344,19 +347,42 @@
 @media (min-width: 200px) and (max-width: 250px) and (orientation: portrait) {
 
     .navbar_list {
-        display: flex;
-        width: 100vw;
-        flex-direction: row;
-        gap: 7vw;
-        padding: 10px;
-        align-items: center;
-        justify-content: center;
-        color: rgb(255, 255, 255);
-        font-family: "Bilbo", cursive;
-        font-size: 10px;
-        font-weight: 500;
+        display: none;
+        /* Hide menu items by default */
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
         background-color: black;
-        transition: 0.3s;
+        width: 100%;
+        padding: 20px;
+        position: absolute;
+        top: 50px;
+        /* Adjust based on hamburger button height */
+        left: 0;
+        z-index: 1000;
+    }
+
+    .navbar_list.open {
+        display: flex;
+        /* Show menu items when hamburger is clicked */
+    }
+
+    .hamburger {
+        display: block;
+        /* Show hamburger button on mobile */
+    }
+
+    .navbar_list li {
+        margin: 10px 0;
+        /* Space between items */
+    }
+
+    .navbar_list a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: "Bilbo", cursive;
+        font-size: 20px;
+        font-weight: 500;
     }
 
 
@@ -420,7 +446,7 @@
         height: 310px;
         width: auto;
     }
-    
+
     .right_side_image {
         display: flex;
         height: 150px;
@@ -439,11 +465,11 @@
     }
 
 
-.bottom_tag {
-    margin-top: 50px;
-    font-family: "Beth Ellen", cursive;
-    font-size: 20px;
-}
+    .bottom_tag {
+        margin-top: 50px;
+        font-family: "Beth Ellen", cursive;
+        font-size: 20px;
+    }
 
     .bottom_paragraphs {
         width: 70vw;
@@ -521,6 +547,7 @@
 
     .top_story {
         margin-top: 20px;
+        width: 80vw;
     }
 
     .image_grid {
@@ -538,16 +565,16 @@
         height: 310px;
         width: auto;
     }
-    
+
     .right_side_image {
         display: flex;
         height: 150px;
         width: auto;
         align-items: center;
         justify-content: center;
-    
+
     }
-    
+
     .see_all_photos {
         display: flex;
         transition: 0.3s;
@@ -575,10 +602,6 @@
 
 }
 
-@media (min-width: 200px) and (max-width: 250px) and (orientation: portrait) {
+@media (min-width: 200px) and (max-width: 250px) and (orientation: portrait) {}
 
-}
-
-@media (min-width: 200px) and (max-width: 250px) and (orientation: portrait) {
-
-}
+@media (min-width: 200px) and (max-width: 250px) and (orientation: portrait) {}
