@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "../app/styles/HowWeMet.module.css";
 import Link from "next/link";
+import { useState } from "react";
 
 function HowWeMet() {
     return (

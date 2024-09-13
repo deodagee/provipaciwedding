@@ -3,7 +3,7 @@
 import Image from "next/image";
 import styles from "../app/styles/indexmain.module.css";
 import Link from "next/link";
-import {useState} from "react";
+import { useState } from "react";
 
 
 function HomePage() {
@@ -15,7 +15,9 @@ function HomePage() {
         setMenuOpen(!menuOpen);
     };
 
-
+    const handleMenuItemClick = () => {
+        setMenuOpen(false); // Close the menu
+    };
 
     return (
 
@@ -39,15 +41,15 @@ function HomePage() {
                         <div className={styles.hamburger} onClick={handleMenuToggle}>
                             &#9776; {/* Hamburger icon */}
                         </div>
+
                         <ul className={`${styles.navbar_list} ${menuOpen ? styles.open : ''}`}>
-                            <li><Link href={'/HowWeMet'}>How We Met</Link></li>
-                            <li><Link href={'/Photos'}>Photos</Link></li>
-                            <li><Link href={'/Agenda'}>Agenda</Link></li>
-                            <li><Link href={'/ThingsToDo'}>Things To Do</Link></li>
-                            <li><Link href={'/Registry'}>Registry</Link></li>
+                            <li><Link onClick={handleMenuItemClick} href='/HowWeMet'>How We Met</Link></li>
+                            <li><Link onClick={handleMenuItemClick} href='/Photos'>Photos</Link></li>
+                            <li><Link onClick={handleMenuItemClick} href='/Agenda'>Agenda</Link></li>
+                            <li><Link onClick={handleMenuItemClick} href='/ThingsToDo'>Things To Do</Link></li>
+                            <li><Link onClick={handleMenuItemClick} href='/Registry'>Registry</Link></li>
                         </ul>
                     </nav>
-
 
                     <div
                         className={styles.providencepacifiquebanner}>

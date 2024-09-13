@@ -3,3 +3,460 @@
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Bilbo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Bilbo&family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+
+
+@media (min-width: 200px) and (max-width: 250px) and (orientation: portrait) {
+
+    .navbar_list {
+        display: none;
+        /* Hide menu items by default */
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        background-color: black;
+        width: 100%;
+        padding: 20px;
+        position: absolute;
+        top: 50px;
+        /* Adjust based on hamburger button height */
+        left: 0;
+        z-index: 1000;
+        transition: 0.8s;
+
+    }
+
+
+    .open { 
+        transition: 1.8s;
+
+    }
+
+    .navbar_list.open {
+        transition: 0.8s;
+        display: flex;
+        /* Show menu items when hamburger is clicked */
+    }
+
+    .hamburger {
+        display: block;
+        transition: 0.8s;
+
+        /* Show hamburger button on mobile */
+    }
+
+    .navbar_list li {
+        margin: 10px 0;
+        /* Space between items */
+    }
+
+    .navbar_list a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: "Bilbo", cursive;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+
+    .providencepacifiquebanner {
+        align-items: center;
+        gap: 20px;
+        width: 100vw;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-width: 1px;
+        border-left: none;
+        border-right: none;
+        border-color: rgb(255, 255, 255);
+        box-shadow: rgb(0, 0, 0) 0px 0px 5px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 5px;
+        animation: changebgofficial 15s infinite;
+    }
+
+    .top_tag_wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        height: auto;
+    }
+
+    .top_tag_section1_and2 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        gap: 1vw;
+    }
+
+
+    .top_tag_section1 {
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .image_grid {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 10px;
+    }
+
+    .left_side_image {
+        display: flex;
+        height: 310px;
+        width: auto;
+    }
+
+    .right_side_image {
+        display: flex;
+        height: 150px;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .see_all_photos {
+        display: flex;
+        transition: 0.3s;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        color: rgb(48, 48, 48);
+        font-size: 10px;
+    }
+
+
+    .bottom_tag {
+        margin-top: 50px;
+        font-family: "Beth Ellen", cursive;
+        font-size: 20px;
+    }
+
+    .bottom_paragraphs {
+        width: 70vw;
+        display: flex;
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (min-width: 250px) and (max-width: 400px) and (orientation: portrait) {
+    .navbar_list {
+        display: none;
+        /* Hide menu items by default */
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        background-color: black;
+        width: 100%;
+        padding: 20px;
+        position: absolute;
+        top: 50px;
+        /* Adjust based on hamburger button height */
+        left: 0;
+        z-index: 1000;
+        transition: 0.8s;
+
+    }
+
+
+    .open { 
+        transition: 1.8s;
+
+    }
+
+    .navbar_list.open {
+        transition: 0.8s;
+        display: flex;
+        /* Show menu items when hamburger is clicked */
+    }
+
+    .hamburger {
+        display: block;
+        transition: 0.8s;
+
+        /* Show hamburger button on mobile */
+    }
+    .navbar_list li {
+        margin: 10px 0;
+        /* Space between items */
+    }
+
+    .navbar_list a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: "Bilbo", cursive;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+
+    .providencepacifiquebanner {
+        align-items: center;
+        gap: 20px;
+        width: 100vw;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-width: 1px;
+        border-left: none;
+        border-right: none;
+        border-color: rgb(255, 255, 255);
+        box-shadow: rgb(0, 0, 0) 0px 0px 5px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 5px;
+        animation: changebgofficial 15s infinite;
+    }
+
+    .top_tag_wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        height: auto;
+    }
+
+    .top_tag_section1_and2 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        gap: 1vw;
+    }
+
+
+    .top_tag_section1 {
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .top_story {
+        margin-top: 20px;
+        width: 80vw;
+    }
+
+    .image_grid {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        gap: 0;
+    }
+
+    .left_side_image {
+        display: flex;
+        height: 310px;
+        width: 48vw;
+    }
+
+    .right_side_image {
+        display: flex;
+        height: 150px;
+        width: 23vw;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .see_all_photos {
+        display: flex;
+        transition: 0.3s;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        color: rgb(48, 48, 48);
+        font-size: 10px;
+        text-decoration: underline;
+    }
+
+    .bottom_tag {
+        margin-top: 50px;
+        font-family: "Beth Ellen", cursive;
+        font-size: 20px;
+    }
+
+    .bottom_paragraphs {
+        width: 80vw;
+        display: flex;
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+}
+@media (min-width: 400px) and (max-width: 500px) and (orientation: portrait) {
+    .navbar_list {
+        display: none;
+        /* Hide menu items by default */
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        background-color: black;
+        width: 100%;
+        padding: 20px;
+        position: absolute;
+        top: 50px;
+        /* Adjust based on hamburger button height */
+        left: 0;
+        z-index: 1000;
+        transition: 0.8s;
+
+    }
+
+
+    .open { 
+        transition: 1.8s;
+
+    }
+
+    .navbar_list.open {
+        transition: 0.8s;
+        display: flex;
+        /* Show menu items when hamburger is clicked */
+    }
+
+    .hamburger {
+        display: block;
+        transition: 0.8s;
+
+        /* Show hamburger button on mobile */
+    }
+
+    .navbar_list li {
+        margin: 10px 0;
+        /* Space between items */
+    }
+
+    .navbar_list a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: "Bilbo", cursive;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+
+    .providencepacifiquebanner {
+        align-items: center;
+        gap: 20px;
+        width: 100vw;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-width: 1px;
+        border-left: none;
+        border-right: none;
+        border-color: rgb(255, 255, 255);
+        box-shadow: rgb(0, 0, 0) 0px 0px 5px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 5px;
+        animation: changebgofficial 15s infinite;
+    }
+
+    .top_tag_wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        height: auto;
+    }
+
+    .top_tag_section1_and2 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        gap: 1vw;
+    }
+
+
+    .top_tag_section1 {
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .top_story {
+        margin-top: 20px;
+        width: 80vw;
+    }
+
+    .image_grid {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        gap: 0;
+    }
+
+    .left_side_image {
+        display: flex;
+        height: 310px;
+        width: 48vw;
+    }
+
+    .right_side_image {
+        display: flex;
+        height: 150px;
+        width: 23vw;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .see_all_photos {
+        display: flex;
+        transition: 0.3s;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        color: rgb(48, 48, 48);
+        font-size: 10px;
+        text-decoration: underline;
+    }
+
+    .bottom_tag {
+        margin-top: 50px;
+        font-family: "Beth Ellen", cursive;
+        font-size: 20px;
+    }
+
+    .bottom_paragraphs {
+        width: 80vw;
+        display: flex;
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+}
+@media (min-width: 200px) and (max-width: 250px) and (orientation: portrait) {}

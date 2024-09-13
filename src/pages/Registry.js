@@ -1,9 +1,23 @@
 import Image from "next/image";
 import styles from "../app/styles/indexmain.module.css";
 import Link from "next/link";
+import { useState } from "react";
 
 
 function HomePage() {
+
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const handleMenuToggle = () => {
+        setMenuOpen(!menuOpen);
+    };
+
+    const handleMenuItemClick = () => {
+        setMenuOpen(false); // Close the menu
+    };
+
+
+
     return (
 
 
